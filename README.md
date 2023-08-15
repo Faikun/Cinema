@@ -1,4 +1,7 @@
 # cinema
+
+ССЫЛКА НА ПРОЕКТ - https://cinema-64e53.web.app/moviesPage/popular
+
 Cinematica Vue - это веб-платформа, созданная с использованием передовых технологий, таких как Vue.js, Pinia, Vue Router и TMDB API.
 Проект "Cinematica Vue: Океан Бесконечных Фильмов"
 
