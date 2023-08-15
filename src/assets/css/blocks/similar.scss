@@ -1,0 +1,15 @@
+.similar {
+    font-size: 1.2rem;
+    color: $white;
+}
+
+.similar__title {
+    font-weight: 600;
+    margin: 25px 0;
+}
+
+.similar__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

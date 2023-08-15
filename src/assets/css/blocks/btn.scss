@@ -1,0 +1,43 @@
+.btn {
+    border: none;
+
+    color: $white;
+    font-size: 1rem;
+    padding: 5px 10px;
+    cursor: pointer;
+
+    &.blue {
+        background-color: $blue;
+        transition: background-color .2s ease-in-out;
+
+        &:hover {
+            background-color: darken($blue, 10%);
+        }
+    }
+
+    &.darken-blue {
+        background-color: darken($blue, 30%);
+        transition: background-color .2s ease-in-out;
+
+        &:hover {
+            background-color: darken($blue, 50%);
+        }
+    }
+
+    &.green {
+        background-color: $green;
+        transition: background-color .2s ease-in-out;
+
+        &:hover {
+            background-color: darken($green, 10%);
+        }
+    }
+
+    &.border-r-b {
+        border-radius: 0 5px 5px 0;
+    }
+
+    &.border {
+        border-radius: 5px;
+    }
+}
